@@ -13,3 +13,8 @@ This is a Makefile script which takes of activation the virtualenv and installin
 **make run** - to run the python script (this should be executed after make all) <br>
 
 
+## sample 
+**make all <br>
+make run**
+
+
