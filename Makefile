@@ -1,4 +1,4 @@
-.PHONY: clean-pyc clean-build init_venv deps freeze clean_venv
+.PHONY: clean-pyc clean-build initialise_venv install_dependency freeze_dependency delete_venv
 
 initialise_venv:
 	if [ ! -e "venv/bin/activate.py" ] ; then python3 -m venv venv; source venv/bin/activate; else source venv/bin/activate;  fi
