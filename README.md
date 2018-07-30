@@ -1,5 +1,5 @@
 # makefile-python
-This is a MakeFile script which takes of activation the virtualenv and installing the requirement and running the python script.<br>
+This is a Makefile script which takes of activation the virtualenv and installing the requirement and running the python script.<br>
 
 ## prerequisite
 - python3 and pip
