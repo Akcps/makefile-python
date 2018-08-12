@@ -17,3 +17,6 @@ all: initialise_venv install_dependency
 
 run:
 	venv/bin/python manage.py runserver
+	
+migrate:
+	venv/bin/python manage.py migrate
