@@ -20,3 +20,8 @@ run:
 	
 migrate:
 	venv/bin/python manage.py migrate
+
+makemigrations:
+	venv/bin/python manage.py makemigrations
+
+syncdb: migrate makemigrations
