@@ -10,11 +10,12 @@ This is a Makefile script which takes of activation the virtualenv and installin
 **make freeze_dependency** - to freeze the dependencies <br>
 **make delete_venv** - to clean the virtual env <br>
 **make all** - to initialize the virtualenv and install the package dependencies <br>
+**make migrate** - django apply migrations <br>
+**make makemigrations** - django create migrations <br>
+**make syncdb** - django create migrations and apply them <br>
 **make run** - to run the python script (this should be executed after make all) <br>
 
 
 ## sample 
 **make all <br>
 make run**
-
-
